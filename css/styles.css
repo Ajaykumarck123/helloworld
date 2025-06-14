@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+}
+
+.hero {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 180px;
+}
+
+.idea-room-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.posts {
+    flex-grow: 1;
+}
+
+.post {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.new-post input, .new-post select {
+    margin-right: 0.5rem;
+}
+
+#resources li {
+    margin-bottom: 0.5rem;
+}
+
+#milestones li {
+    margin-bottom: 0.5rem;
+}

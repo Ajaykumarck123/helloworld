@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Square</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Startup Square</h1>
+        <p>Where ideas evolve into startups</p>
+    </header>
+
+    <section id="trending" class="section">
+        <h2>Trending Discussions</h2>
+        <div class="cards" id="trending-cards"></div>
+    </section>
+
+    <section id="idea-room" class="section">
+        <h2>Idea Rooms</h2>
+        <div class="idea-room-container">
+            <aside class="sidebar">
+                <h3>Filters</h3>
+                <label>Stage
+                    <select id="stage-filter">
+                        <option value="">All</option>
+                        <option value="Brainstorming">Brainstorming</option>
+                        <option value="Validating">Validating</option>
+                        <option value="Prototyping">Prototyping</option>
+                        <option value="Launching">Launching</option>
+                    </select>
+                </label>
+                <label>Domain
+                    <select id="domain-filter">
+                        <option value="">All</option>
+                        <option value="Tech">Tech</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Hardware">Hardware</option>
+                    </select>
+                </label>
+            </aside>
+            <div class="posts" id="posts"></div>
+        </div>
+        <div class="new-post">
+            <input type="text" id="post-title" placeholder="Idea title">
+            <select id="post-stage">
+                <option value="Brainstorming">Brainstorming</option>
+                <option value="Validating">Validating</option>
+                <option value="Prototyping">Prototyping</option>
+                <option value="Launching">Launching</option>
+            </select>
+            <select id="post-domain">
+                <option value="Tech">Tech</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Hardware">Hardware</option>
+            </select>
+            <button id="add-post">Add Idea</button>
+        </div>
+    </section>
+
+    <section id="knowledge-hub" class="section">
+        <h2>Knowledge Hub</h2>
+        <ul id="resources"></ul>
+    </section>
+
+    <section id="build-with-me" class="section">
+        <h2>Build With Me</h2>
+        <input type="text" id="my-interests" placeholder="Your interests">
+        <button id="find-match">Find Match</button>
+        <div id="match-result"></div>
+    </section>
+
+    <section id="progress-board" class="section">
+        <h2>Progress Board</h2>
+        <input type="text" id="milestone" placeholder="Share a milestone">
+        <button id="add-milestone">Add Milestone</button>
+        <ul id="milestones"></ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
