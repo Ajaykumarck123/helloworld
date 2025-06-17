@@ -9,4 +9,3 @@ This repository contains a simple prototype for **Startup Square**, a forum-styl
 - "Build With Me" matchmaking based on interests
 - Progress board for weekly milestones
 
-Open `index.html` in a browser to explore the prototype.
